@@ -32,6 +32,6 @@ def generate_sitemap(app):
     links_html = "".join(["<li><a href='" + y + "'>" + y + "</a></li>" for y in links])
     return """
         <div style="text-align: center;">
-        <img src='https://github.com/breatheco-de/exercise-family-static-api/blob/master/rigo-baby.jpeg?raw=true' />
-        <h1>Hello Rigo!!</h1>
+        <img src='https://raw.githubusercontent.com/JorgeAJT/exercise-family-static-api/master/jorgeAJT.png' style="width: 350px;"/>
+        <h1>Hello there!</h1>
         This is your api home, remember to specify a real endpoint path like: <ul style="text-align: left;">"""+links_html+"</ul></div>"
